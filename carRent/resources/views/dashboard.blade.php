@@ -30,8 +30,8 @@
                             </td>
                             <td class="p-3 px-5">
 
-                                <a href="/task/{{$car->id}}" name="edit" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-black py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
-                                <form action="/task/{{$car->id}}" class="inline-block">
+                                <a href="/car/{{$car->id}}" name="edit" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-black py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
+                                <form action="/car/{{$car->id}}" class="inline-block">
                                     <button type="submit" name="delete" formmethod="POST" class="text-sm bg-red-500 hover:bg-red-700 text-black py-1 px-2 rounded focus:outline-none focus:shadow-outline">Delete</button>
                                     {{ csrf_field() }}
                                 </form>
