@@ -19,6 +19,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->group(function(){
+    Route::get('/dashboard',[CarsController::class, 'index'])->name('dashboard');
+
+    Route::get('/car',[CarsController::class, 'add']);
+    Route::post('/car',[CarsController::class, 'create']);
+
+    Route::get('/car/{car}', [CarsController::class, 'edit']);
+    Route::post('/car/{car}', [CarsController::class, 'update']);
+});
+
