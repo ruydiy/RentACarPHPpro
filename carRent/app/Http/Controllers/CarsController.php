@@ -1,5 +1,5 @@
 <?php
-
+/*
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -7,6 +7,7 @@ use App\Models\Car;
 
 class CarsController extends Controller
 {
+
     public function index()
     {
         $cars = auth()->user()->cars();
@@ -19,6 +20,7 @@ class CarsController extends Controller
 
     public function create(Request $request)
     {
+
         $this->validate($request, [
             'description' => 'required'
         ]);
@@ -57,4 +59,4 @@ class CarsController extends Controller
             return redirect('/dashboard');
         }
     }
-}
+}/*
