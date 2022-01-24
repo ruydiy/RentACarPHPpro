@@ -33,17 +33,18 @@ Route::get('/contact', function () {
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function(){
+
     Route::get('/dashboard',[\App\Http\Controllers\TasksController::class, 'index'])->name('dashboard');
-    Route::get('/show', [\App\Http\Controllers\HomeController::class, 'index']);
+    Route::get('/show', [\App\Http\Controllers\CarController::class, 'index']);
 
     Route::get('/create',[\App\Http\Controllers\CarController::class, 'add']);
     Route::post('/create',[\App\Http\Controllers\CarController::class, 'create']);
 
     Route::get('/edit/{edit}', [\App\Http\Controllers\CarController::class, 'edit']);
     Route::put('/edit/{edit}', [\App\Http\Controllers\CarController::class, 'update']);
-    Route::post('/edit/{edit}', [\App\Http\Controllers\CarController::class, 'delete']);
+    Route::post('/edit/{edit}', [\App\Http\Controllers\CarController::class, 'update']);
 
-    //Route::post('create',[\App\Http\Controllers\PhoneController::class, 'upload']);
+    //Route::post('create',[\App\Http\Controllers\CarController::class, 'upload']);
 
     Route::get('/search', [\App\Http\Controllers\CarController::class, 'search']);
 

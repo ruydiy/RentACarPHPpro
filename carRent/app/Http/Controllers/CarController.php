@@ -52,12 +52,13 @@ class CarController extends Controller
     }
 
     public function update(Request $request, $id){
-        $car = Phone::find($id);
+        $car = Car::find($id);
 
         $car->brand = $request->brand;
         $car->model = $request->model;
         $car->description = $request->description;
         $car->productionDate = $request->productionDate;
+
         if ($request->hasFile('image'))
         {
             $imageName = time().'.'.$request->image->extension();
@@ -83,6 +84,10 @@ class CarController extends Controller
             ->orWhere('model', 'like','%'.$search.'%')
             ->orWhere('productionDate', 'like','%'.$search.'%')->get();
         return view('search', compact('cars'));
+    }
+    public function index(){
+        $cars = Car::all();
+        return view('show', compact('cars'));
     }
 }
 

@@ -15,25 +15,25 @@
     <div class="w3-row-padding">
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Ford Mustang</div>
+                <div class="w3-display-topleft w3-black w3-padding">Ford Mustang - 300lv/day</div>
                 <img src="images/ford.jpg" alt="Ford Mustang" style="width: 100%">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Nissan skyline</div>
+                <div class="w3-display-topleft w3-black w3-padding">Nissan skyline 150lv/day</div>
                 <img src="images/nissan.jpg" alt="House" style="width:100%">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Audi rs8</div>
+                <div class="w3-display-topleft w3-black w3-padding">Audi rs8 - 400lv/day</div>
                 <img src="images/audi.jpg" alt="Audi rs8" style="width:100%">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">BMW 4</div>
+                <div class="w3-display-topleft w3-black w3-padding">BMW 4 120lv/day</div>
                 <img src="images/bmw.jpg" alt="bmw 4" style="width:100%">
             </div>
         </div>
@@ -42,25 +42,25 @@
     <div class="w3-row-padding">
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Toyota Supra</div>
+                <div class="w3-display-topleft w3-black w3-padding">Toyota Supra - 100lv/day</div>
                 <img src="/images/supra.jpg" alt="Toyota Supra" style="width:99%">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">BMW e30</div>
+                <div class="w3-display-topleft w3-black w3-padding">BMW e30 - 300lv/day</div>
                 <img src="/images/e30.jpg" alt="BMW e30" style="width:99%">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">mercedes g </div>
+                <div class="w3-display-topleft w3-black w3-padding">mercedes g - 200lv/day </div>
                 <img src="/images/merc.jpg" alt="mercedes g" style="width:99%">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">lamborghini aventador</div>
+                <div class="w3-display-topleft w3-black w3-padding">lamborghini aventador - 300lv/day</div>
                 <img src="/images/lambo.jpg" alt="lamborghini aventador" style="width:99%">
             </div>
         </div>

@@ -13,8 +13,8 @@
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
             <a href="{{url('/index')}}" class="w3-bar-item w3-button">All Cars</a>
-            <a href="{{url('/show')}}" class="w3-bar-item w3-button">YourCars</a>
-            <a href="{{url('/search')}}" class="w3-bar-item w3-button">Search</a>
+            <a href="{{url('/show')}}" class="w3-bar-item w3-button">AdminCars</a>
+            <a href="{{url('/search')}}" class="w3-bar-item w3-button">AdminSearch</a>
             <a href="{{url('/contact')}}" class="w3-bar-item w3-button">Contact☏</a>
         </div>
     </div>
