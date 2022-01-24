@@ -52,7 +52,7 @@
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" name="update" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Update Car Info</button>
+                            <button type="submit" name="update" class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Update Car Info</button>
                             <a href="{{url('/show')}}" class="btn btn-default">back</a>
                         </div>
                         {{ csrf_field() }}
